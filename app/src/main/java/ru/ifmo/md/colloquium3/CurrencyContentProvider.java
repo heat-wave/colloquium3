@@ -28,7 +28,7 @@ public class CurrencyContentProvider extends ContentProvider {
 
     private static final String AUTHORITY = "ru.ifmo.md.colloquium3";
 
-    private static final String BASE_PATH = "todos";
+    private static final String BASE_PATH = "";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY
             + "/" + BASE_PATH);
 
@@ -186,6 +186,4 @@ public class CurrencyContentProvider extends ContentProvider {
             }
         }
     }
-
-
 }
